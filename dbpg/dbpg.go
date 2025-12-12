@@ -7,8 +7,8 @@ import (
 	"time"
 
 	// Register PostgreSQL driver for database/sql.
+	"github.com/Pur1st2EpicONE/wbf/retry"
 	_ "github.com/lib/pq"
-	"github.com/wb-go/wbf/retry"
 )
 
 // DB represents a database connection with master and slave nodes.

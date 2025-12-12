@@ -3,8 +3,8 @@ package rabbitmq
 import (
 	"context"
 
+	"github.com/Pur1st2EpicONE/wbf/retry"
 	"github.com/rabbitmq/amqp091-go"
-	"github.com/wb-go/wbf/retry"
 )
 
 // Publisher - обертка над RabbitMQ-клиентом для публикации сообщений в обменник.

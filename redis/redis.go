@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
+	"github.com/Pur1st2EpicONE/wbf/retry"
 	"github.com/go-redis/redis/v8"
-	"github.com/wb-go/wbf/retry"
 )
 
 // NoMatches is returned when Redis did not find any matching key.

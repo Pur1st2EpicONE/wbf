@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/Pur1st2EpicONE/wbf/zlog"
 	"github.com/rabbitmq/amqp091-go"
-	"github.com/wb-go/wbf/zlog"
 )
 
 // Consumer - обертка над RabbitMQ-клиентом для получения сообщений из обменника.

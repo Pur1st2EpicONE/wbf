@@ -4,8 +4,8 @@ package kafka
 import (
 	"context"
 
+	"github.com/Pur1st2EpicONE/wbf/retry"
 	"github.com/segmentio/kafka-go"
-	"github.com/wb-go/wbf/retry"
 )
 
 // Producer представляет Kafka продюсер.

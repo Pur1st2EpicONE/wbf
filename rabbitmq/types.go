@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Pur1st2EpicONE/wbf/retry"
 	"github.com/rabbitmq/amqp091-go"
-	"github.com/wb-go/wbf/retry"
 )
 
 // ClientConfig — конфигурация клиента RabbitMQ.
