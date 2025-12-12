@@ -1,4 +1,4 @@
-module github.com/wb-go/wbf
+module github.com/Pur1st2EpicONE/wbf
 
 go 1.21
 
